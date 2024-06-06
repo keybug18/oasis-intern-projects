@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Sanchit Panker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar">
+                
+                <div class="logo-container">
+                    <img src="data:image/jpeg;base64,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" class="logo">
+                    <div class="logo-text">anchit Panker</div>
+                </div>
+                
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+
+            </div>
+
+            <div class="hero-section">
+
+                <div class="faded-text">Sanchit Panker</div>
+    
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! Sanchit Panker</div>
+                    
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+    
+                    <div class="hero-section-description">
+                        I’m a software developer and here is my portfolio website. Here you’ll
+                        learn about my journey as a software developer.
+                    </div>
+                    
+                    <div class="btn-pink" id="btn">Hire me</div>
+    
+                </div>
+    
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="./images/userAsset/dots.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-cube">
+                        <img src="./images/userAsset/cube.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-circle">
+                        <img src="./images/userAsset/circle.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-zigzag">
+                        <img src="./images/userAsset/zigzags.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-plus">
+                        <img src="./images/userAsset/plus.png" alt="" />
+                      </div>
+                      <div class="user-image">
+                        <img src="./images/userAsset/IMG-20240526-WA0000.jpg" alt="" width="455px" height="50%" />
+                      </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Express.png" alt="" />
+                            <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                        </div>
+
+                        <h2 class="project-heading">Tint & Orange</h2>
+
+                        <p class="project-subHeading">Its is a car modification copany 
+                            which provide you sheets to protect your car from scratch
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                  <div class="project-number project-number-left">02</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                    </div>
+                    <h2 class="project-heading">Breaking Copyrights</h2>
+                    <p class="project-sub-heading">
+                      A platform to download copyrights free youtube music
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project3">
+                  <div class="project-number project-number-right">03</div>
+                  <div class="project-content project-content-left">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                    </div>
+          
+                    <h2 class="project-heading">Isha Tattva</h2>
+                    <p class="project-sub-heading">
+                      A Website for interior designer to showcase her works and samples
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project4">
+                  <div class="project-number project-number-left">04</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                    </div>
+                    <h2 class="project-heading">Granit</h2>
+                    <p class="project-sub-heading">
+                      A architectural website to plan your building or home (Hebrew
+                      Language)
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="skills" class="container skills-container ">
+          <div class="skill-fade-text">Skills</div>
+
+          <div class="skill-container-left">
+            <h2 class="skill-heading">
+              <span class="caps">M</span>e and
+              <br />
+              MyTech Stack
+            </h2>
+
+            <div class="skill-subHeading">
+              <p>
+                Hi Everyone My name is Sanchit Panker I am a Full Stack Web Developer. Currently I am
+                working on Backend and Animations and Making Beautiful UI-UX are my Key features.
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+                doloremque aspernatur, maiores voluptatum minus laudantium?
+                Perspiciatis accusamus minima porro dolores necessitatibus, magni
+                dolorem et qui veniam nulla sequi molestiae maxime.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem
+                quos ullam veritatis voluptates tenetur qui ipsa nulla culpa itaque?
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-container-right">
+            <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+            <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+            <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/React.png" alt="" class="skills-logo" />
+            <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+          </div>
+        
+        
+        
+        </div>
+
+        <div class="contactus-form-container" id="contactme">
+          <div class="container">
+
+            <h1 class="contactus-heading">Contact me</h1>
+
+            <h3 class="contactus-sub-heading">
+              Questions, thoughts, or just want to say hello?
+            </h3>
+
+
+            <div class="contactus-form-container">
+              <form class="form" action="">
+                <div class="formfield-container">
+                  <input class="formfield" 
+                  type="text" 
+                  name="name" 
+                  id="" 
+                  placeholder="Enter your name" />
+
+                  <input class="formfield" 
+                  type="email" 
+                  name="email" 
+                  id="" 
+                  placeholder="Enter your email address" />
+
+                  <input class="formfield" 
+                  type="text" 
+                  name="subject" 
+                  id="" 
+                  placeholder="Enter your subject" />
+
+                  <textarea name="message" 
+                  id="" cols="30" rows="10" 
+                  class="formfield formfield-textarea"
+                  placeholder="Enter your message"></textarea>
+
+                </div>
+                
+                <div>
+                  <button type="submit" class="btn-pink" id="submit-btn">
+                    Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+
+              </form>
+
+            </div>
+
+
+          </div>
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-faded-text">Sanchit Panker</div>
+
+              <div class="link-wrapper">
+                <div>
+                  <a href="#projects">Projects</a>
+                </div>
+                <div>
+                  <a href="#skills">Skills</a>
+                </div>
+                <div>
+                  <a href="#contactme">Contact Me</a>
+                </div>
+              </div>
+
+              <div class="icon-wrapper">
+                <i class="fa-brands fa-linkedin icon"></i>
+                <i class="fa-brands fa-github icon"></i>
+                <i class="fa-brands fa-twitter icon"></i>
+                <i class="fa-brands fa-instagram icon"></i>
+                <i class="fa-regular fa-envelope icon"></i>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</body>
+</html>
